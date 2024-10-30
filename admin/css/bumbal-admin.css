@@ -1,0 +1,8 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .order-status.status-bumbal-error.tips {
+     background-color: #eba3a3;
+     color: #761919;
+ }

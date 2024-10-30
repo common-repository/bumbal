@@ -1,0 +1,681 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bumbal 1.0.0\n"
+"POT-Creation-Date: 2022-03-30 16:47+0200\n"
+"PO-Revision-Date: 2022-03-30 16:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: Bumbal\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-bumbal-admin.php:105
+msgid "Bumbal shipping time"
+msgstr "Bumbal verzendtijd"
+
+#: admin/class-bumbal-admin.php:110
+msgid ""
+"The total days that are showed here determines the earliest delivery time. "
+"If 5 is showed here it means that the order is gonne be shipped in 5 days."
+msgstr ""
+"Het aantal dagen dat hier wordt ingevuld bepaald de vroegste datum voor "
+"uitlevering. Als er '5' wordt ingevuld betekend dat dus dat het pas over 5 "
+"dagen uitgeleverd wordt."
+
+#: admin/class-bumbal-admin.php:159
+msgid "Send to Bumbal"
+msgstr "Stuur naar Bumbal"
+
+#: admin/class-bumbal-admin.php:202
+msgid "Activity planned"
+msgstr "Activiteit gepland"
+
+#: admin/class-bumbal-admin.php:203
+msgid "Activity in progress"
+msgstr "Activiteit wordt nu uitgevoerd"
+
+#: admin/class-bumbal-admin.php:204
+msgid "Activity executed"
+msgstr "Activiteit uitgevoerd"
+
+#: admin/class-bumbal-admin.php:205
+msgid "Activity incomplete"
+msgstr "Activiteit incompleet"
+
+#: admin/class-bumbal-admin.php:206
+msgid "Activity new"
+msgstr "Activiteit nieuw"
+
+#: admin/class-bumbal-admin.php:207
+msgid "Activity accepted"
+msgstr "Activiteit geaccepteerd"
+
+#: admin/class-bumbal-admin.php:208
+msgid "Activity cancelled"
+msgstr "Activiteit gecanceld"
+
+#: admin/class-bumbal-admin.php:209
+msgid "Activity awaiting"
+msgstr "Activiteit in afwachting"
+
+#: admin/class-bumbal-settings.php:33
+msgid "Connection"
+msgstr "Connectie"
+
+#: admin/class-bumbal-settings.php:34
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: admin/class-bumbal-settings.php:35
+msgid "Communication"
+msgstr "Communicatie"
+
+#: admin/class-bumbal-settings.php:83
+msgid "Bumbal connection settings"
+msgstr "Bumbal connectie instellingen"
+
+#: admin/class-bumbal-settings.php:85
+msgid "All the settings for making a connection with Bumbal."
+msgstr "Alle instellingen voor het maken van een connectie met Bumbal."
+
+#: admin/class-bumbal-settings.php:88
+msgid "Instance name"
+msgstr "Instantie naam"
+
+#: admin/class-bumbal-settings.php:90
+msgid "Instance name for Bumbal."
+msgstr "Instantie naam voor Bumbal."
+
+#: admin/class-bumbal-settings.php:94
+msgid "API-key"
+msgstr "API-sleutel"
+
+#: admin/class-bumbal-settings.php:96
+msgid "API-key for Bumbal."
+msgstr "API-sleutel voor Bumbal."
+
+#: admin/class-bumbal-settings.php:100
+msgid "Shop name"
+msgstr "Webshop naam"
+
+#: admin/class-bumbal-settings.php:102
+msgid ""
+"When using multiple Woocommerce shops for the same Bumbal environment we "
+"need to identify what order is from what shop. WARNING: changing this field "
+"could result in duplicate activities in Bumbal, please contact support "
+"before doing this."
+msgstr ""
+"Bij het gebruik van meerdere Woocommerce-winkels voor dezelfde Bumbal-"
+"omgeving moeten we identificeren welke bestelling van welke winkel is. "
+"WAARSCHUWING: het wijzigen van dit veld kan leiden tot dubbele activiteiten "
+"in Bumbal, neem contact op met Bumbal voordat u dit doet."
+
+#: admin/class-bumbal-settings.php:106
+msgid "Status for sending"
+msgstr "Status voor verzending"
+
+#: admin/class-bumbal-settings.php:108
+msgid "Select the order status whereby the order is sent to Bumbal."
+msgstr ""
+"Selecteer de bestelstatus waarbij de bestelling naar Bumbal wordt verzonden."
+
+#: admin/class-bumbal-settings.php:112
+msgid "Processing"
+msgstr "In behandeling"
+
+#: admin/class-bumbal-settings.php:113
+msgid "Completed"
+msgstr "Afgerond"
+
+#: admin/class-bumbal-settings.php:114
+msgid "Custom"
+msgstr "Op maat"
+
+#: admin/class-bumbal-settings.php:117
+msgid "Custom hook for sending"
+msgstr "Op maat gemaakte hook voor verzending"
+
+#: admin/class-bumbal-settings.php:119
+msgid "Only used when 'Custom' is chosen by 'Status for sending'"
+msgstr ""
+"Wordt alleen gebruikt als 'Op maat' is geselecteerd bij 'Status voor "
+"verzending'"
+
+#: admin/class-bumbal-settings.php:131
+msgid "Bumbal shipping method settings"
+msgstr "Bumbal verzendmethode instellingen"
+
+#: admin/class-bumbal-settings.php:133
+msgid "Select all the shipping methods whereby the order is sent to Bumbal."
+msgstr ""
+"Selecteer alle verzendmethoden waarbij de bestelling naar Bumbal wordt "
+"verzonden."
+
+#: admin/class-bumbal-settings.php:176
+msgid "Bumbal shipping classes settings"
+msgstr "Bumbal verzendklasse instellingen"
+
+#: admin/class-bumbal-settings.php:178
+msgid "Select all the shipping classes whereby the order is sent to Bumbal."
+msgstr ""
+"Selecteer al de verzendklasse waarbij de order naar Bumbal mag worden "
+"verzonden. Als in een order meerdere verzendklasse zit wordt bij 1 positieve "
+"verzendklasse de hele order naar Bumbal verstuurd."
+
+#: admin/class-bumbal-settings.php:220
+msgid "Bumbal preference settings"
+msgstr "Bumbal voorkeursinstellingen"
+
+#: admin/class-bumbal-settings.php:222
+msgid "All the specific preference settings for the Bumbal plug-in."
+msgstr ""
+"Al de specifieke voorkeursinstellingen voor het gebruik van de plug-in. "
+
+#: admin/class-bumbal-settings.php:230
+msgid "Use datamapper plug-in"
+msgstr "Gebruik datamapping plug-in"
+
+#: admin/class-bumbal-settings.php:233
+msgid ""
+"When checking this checkbox you will not use the default datamapper but you "
+"will use the custom made datamapper in the 'Bumbal Datamapper' plugin.<br>\n"
+"                              <br> \n"
+"                              <b>Be very carefull when checking this "
+"checkbox. If there is no datamapper present this could result in errors!</b>"
+msgstr ""
+"Bij het selecteren van deze optie maak je gebruik van de data mapping uit de "
+"'Bumbal Datamapper plug-in.<br />\n"
+"<br />\n"
+"<b>Wees erg voorzichtig met het selecteren van deze checkbox. Als er geen "
+"datamapper in de 'Bumbal Datamapper' zit kan dit foutmeldingen opleveren.</b>"
+
+#: admin/class-bumbal-settings.php:242
+msgid "Change status"
+msgstr "Verander status"
+
+#: admin/class-bumbal-settings.php:244
+msgid ""
+"Change the order status to 'Completed' when order is finished in Bumbal."
+msgstr ""
+"Verander de order status naar 'Afgerond' als de order is afgehandeld in "
+"Bumbal."
+
+#: admin/class-bumbal-settings.php:247
+msgid "Shipping classes"
+msgstr "Verzendklassen"
+
+#: admin/class-bumbal-settings.php:249
+msgid "Ignore shipping classes for sending to Bumbal"
+msgstr "Negeer verzendklassen voor verzending naar Bumbal"
+
+#: admin/class-bumbal-settings.php:252
+msgid "Send products as notes"
+msgstr "Verstuur artikelen als notitie"
+
+#: admin/class-bumbal-settings.php:254
+msgid ""
+"By sending the packagelines as driver notes, it's possible to print a "
+"detailed route in Bumbal."
+msgstr ""
+"Door het versturen van de producten als notities is het mogelijk om een "
+"gedetaileerde route in Bumbal uit te printen."
+
+#: admin/class-bumbal-settings.php:257
+msgid "Overwrite ACF plug-in"
+msgstr "Overschrijf ACF plug-in"
+
+#: admin/class-bumbal-settings.php:259
+msgid ""
+"<i>Advanced Custom Fields</i> hides the metadata boxes on orders. By "
+"selecting this checkbox that function is overwritten."
+msgstr ""
+"<I>Advanced Custom Fields</I> plug-in verstopt de 'Extra velden'. Door het "
+"selecteren van deze optie wordt deze functie overschreven."
+
+#: admin/class-bumbal-settings.php:262
+msgid "Send invite after error"
+msgstr "Uitnodiging na error"
+
+#: admin/class-bumbal-settings.php:264
+msgid ""
+"Send an invite message for scheduling a timeslot when an order is send "
+"manual after an error occured."
+msgstr ""
+"Verstuur een uitnodiging tot het maken van een afspraak als een order "
+"handmatig wordt verstuurd naar Bumbal na een error."
+
+#: admin/class-bumbal-settings.php:275
+msgid "Bumbal timeslot settings"
+msgstr "Bumbal voorkeurstijden instellingen"
+
+#: admin/class-bumbal-settings.php:277
+msgid "Timeslot settings."
+msgstr "Voorkeurstijden instellingen."
+
+#: admin/class-bumbal-settings.php:280
+msgid "Timeslots form"
+msgstr "Voorkeurstijden formulier"
+
+#: admin/class-bumbal-settings.php:282
+msgid "Show customer the timeslot form during the checkout process"
+msgstr "De klant het voorkeurstijden formulier tonen tijdens het afrekenproces"
+
+#: admin/class-bumbal-settings.php:285
+msgid "Timeslot time"
+msgstr "Voorkeurstijden tijden"
+
+#: admin/class-bumbal-settings.php:287
+msgid "Show customer the time from the timeslots."
+msgstr "Laat klanten de tijd van de voorkeurstijden zien."
+
+#: admin/class-bumbal-settings.php:290
+msgid "Timeslot hook"
+msgstr "Voorkeurstijden hook"
+
+#: admin/class-bumbal-settings.php:292
+msgid ""
+"Define the filter hook where the timeslots will be shown. Leave empty for "
+"default (woocommerce_thankyou)."
+msgstr ""
+"Defineer de filter hook waar de voorkeurstijden weergegeven mogen worden. "
+"Laat leeg om de standaard (woocommerce_thankyou) te gebruiken."
+
+#: admin/class-bumbal-settings.php:296
+msgid "Timeslot position"
+msgstr "Voorkeurstijden positie"
+
+#: admin/class-bumbal-settings.php:298
+msgid ""
+"Define the priority of the timeslots. A lower numbers means that the "
+"timeslots are higher on the page."
+msgstr ""
+"Defineer de prioriteit van de voorkeurstijden. Een lager nummer betekend dat "
+"de voorkeurstijden hoger op de pagina verschijnen. "
+
+#: admin/class-bumbal-settings.php:302
+msgid "Timeslot text"
+msgstr "Tekst boven het voorkeurstijden formulier"
+
+#: admin/class-bumbal-settings.php:304
+msgid ""
+"Define the text that has to be shown above the timeslots form. Leave empty "
+"for default."
+msgstr ""
+"Defineer de tekst die boven het voorkeurstijden formulier getoond mag "
+"worden. Laat leeg om de standaard tekst te gebruiken."
+
+#: admin/class-bumbal-settings.php:308
+msgid "Timeslot successfully chosen message"
+msgstr "Voorkeurstijden succesvol bericht"
+
+#: admin/class-bumbal-settings.php:310
+msgid ""
+"Define the text that has to be shown when timeslots have been succesfully "
+"chosen. Leave empty for default."
+msgstr ""
+"Defineer de tekst die getoond wordt als een voorkeurstijd succesvol is "
+"gekozen. Laat leeg om de standaard tekst te gebruiken."
+
+#: admin/class-bumbal-settings.php:322
+msgid "Multi-day assignment settings"
+msgstr "Meerdaagse opdracht instellingen"
+
+#: admin/class-bumbal-settings.php:324
+msgid "With multi-day assignment an extra activity is created as pick-up."
+msgstr ""
+"Met een meerdaagse opdracht wordt een extra activiteit aangemaakt als pick-"
+"up."
+
+#: admin/class-bumbal-settings.php:327
+msgid "Activate multi-day assignment"
+msgstr "Activeer meerdaagse opdrachten"
+
+#: admin/class-bumbal-settings.php:331
+msgid "Start timewindow pick-up"
+msgstr "Start tijdvenster pick-up"
+
+#: admin/class-bumbal-settings.php:333
+msgid ""
+"When the option 'Timeslot form' is not in use, the pick-up activity get's "
+"this start time as timeslot."
+msgstr ""
+"Wanneer de optie 'Voorkeurstijden formulier' niet wordt gebruikt, zal de "
+"pick-up activiteit deze start tijd krijgen als voorkeurstijd."
+
+#: admin/class-bumbal-settings.php:337
+msgid "End timewindow pick-up"
+msgstr "Ein tijdvenster pick-up"
+
+#: admin/class-bumbal-settings.php:339
+msgid ""
+"When the option 'Timeslot form' is not in use, the pick-up activity get's "
+"this end time as timeslot."
+msgstr ""
+"Wanneer de optie 'Voorkeurstijden formulier' niet wordt gebruikt, zal de "
+"pick-up activiteit deze eind tijd krijgen als voorkeurstijd."
+
+#: admin/class-bumbal-settings.php:361
+msgid "Bumbal communication settings"
+msgstr "Bumbal communicatie instellingen"
+
+#: admin/class-bumbal-settings.php:363
+msgid "All the settings for sending communication to Bumbal."
+msgstr "Alle instellingen voor het versturen van communicatie binnen Bumbal."
+
+#: admin/class-bumbal-settings.php:366 admin/class-bumbal-settings.php:414
+msgid "Send invite"
+msgstr "Verstuur uitnodiging"
+
+#: admin/class-bumbal-settings.php:368 admin/class-bumbal-settings.php:416
+msgid ""
+"Send an invite message for scheduling a timeslot when the order is send to "
+"Bumbal."
+msgstr ""
+"Verstuur een uitnodiging voor het maken van een afspraak, op het moment dat "
+"de order wordt verstuurd naar Bumbal."
+
+#: admin/class-bumbal-settings.php:371 admin/class-bumbal-settings.php:419
+msgid "Send reminder"
+msgstr "Verstuur herinnering"
+
+#: admin/class-bumbal-settings.php:373 admin/class-bumbal-settings.php:421
+msgid "Send a reminder when no timeslot is booked yet."
+msgstr "Verstuur een herinnering als er geen voorkeurstijden zijn geboekt."
+
+#: admin/class-bumbal-settings.php:376 admin/class-bumbal-settings.php:424
+msgid "Send confirmation"
+msgstr "Verstuur een bevestiging"
+
+#: admin/class-bumbal-settings.php:378 admin/class-bumbal-settings.php:426
+msgid "Send a confirmation message when a timesloot is booked."
+msgstr "Verstuur een bevestiging van de gekozen voorkeurstijden."
+
+#: admin/class-bumbal-settings.php:381 admin/class-bumbal-settings.php:429
+msgid "Send plannend"
+msgstr "Verstuur plan bericht"
+
+#: admin/class-bumbal-settings.php:383 admin/class-bumbal-settings.php:431
+msgid "Send a message when the activity is planned on a route."
+msgstr "Verstuur een bericht als een activiteit is gepland op een route."
+
+#: admin/class-bumbal-settings.php:386 admin/class-bumbal-settings.php:434
+msgid "Send ETA"
+msgstr "Verstuur de verwachte aankomsttijd."
+
+#: admin/class-bumbal-settings.php:388 admin/class-bumbal-settings.php:436
+msgid "send an estimated time of arrival message."
+msgstr "verstuur een bericht met de verwachtte aankomsttijd."
+
+#: admin/class-bumbal-settings.php:391 admin/class-bumbal-settings.php:439
+msgid "Send finished"
+msgstr "Verstuur afgerond bericht"
+
+#: admin/class-bumbal-settings.php:393 admin/class-bumbal-settings.php:441
+msgid "Send a message when the activity is finished."
+msgstr "Verstuur een bericht als de activiteit is afgerond."
+
+#: admin/class-bumbal-settings.php:396 admin/class-bumbal-settings.php:444
+msgid "Send cancelled"
+msgstr "Verstuur annulering"
+
+#: admin/class-bumbal-settings.php:398 admin/class-bumbal-settings.php:446
+msgid "Send a message when the activity is cancelled."
+msgstr "Verstuur een bericht als de activiteit wordt geannuleerd."
+
+#: admin/class-bumbal-settings.php:409
+msgid "Multi-day assignment communication settings"
+msgstr "Meerdaagse opdracht instellingen"
+
+#: admin/class-bumbal-settings.php:411
+msgid ""
+"Select what communication settings are used for the pick-up in the multi-day "
+"assignments."
+msgstr ""
+"Selecteer welke communicatie er verzonden moet worden voor meerdaagse "
+"opdrachten."
+
+#: admin/partials/bumbal-show-status.php:17
+msgid "Number"
+msgstr "Nummer"
+
+#: admin/partials/bumbal-show-status.php:24
+msgid "API error"
+msgstr "API error"
+
+#: admin/partials/bumbal-show-status.php:28
+#: admin/partials/bumbal-show-status.php:40
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: admin/partials/bumbal-show-status.php:34
+msgid "Status"
+msgstr "Status"
+
+#: admin/partials/bumbal-show-status.php:47
+msgid "Route"
+msgstr "Route"
+
+#: public/class-bumbal-public.php:115 public/class-bumbal-public.php:195
+#: public/class-bumbal-public.php:219
+msgid "Can not connect to Bumbal API"
+msgstr "Kan geen connectie maken met de Bumbal API"
+
+#: public/class-bumbal-public.php:116 public/class-bumbal-public.php:220
+#, php-format
+msgid "Failed to book timeslot. Wordpress error: %s."
+msgstr "Kon geen voorkeurstijden verwerken. Wordpress error: %s."
+
+#: public/class-bumbal-public.php:133
+msgid "Thank you, we have booked your timeslot."
+msgstr "Dankje, we hebben uw voorkeurstijden ontvangen."
+
+#: public/class-bumbal-public.php:139
+msgid "Timeslot succesfully booked by client."
+msgstr "Voorkeurstijden succesvol geboekt door klant."
+
+#: public/class-bumbal-public.php:142
+msgid "Sorry, we where not able to book your timeslot."
+msgstr "Sorry, we kunnen op dit moment uw voorkeurstijden niet verwerken."
+
+#: public/class-bumbal-public.php:143
+#, php-format
+msgid ""
+"Failed to book timeslot. API responded with %s. Check BumbalTimeSlotResponse "
+"meta data."
+msgstr ""
+"Tijdslot kon niet verwerkt worden. API reageerde met %s. Bekijk "
+"BumbalTimeSlotResponse meta data."
+
+#: public/class-bumbal-public.php:194
+#, php-format
+msgid "Failed to cancel order. Wordpress error: %s."
+msgstr "Kon bestelling niet annuleren. Wordpress error: %s."
+
+#: public/class-bumbal-public.php:201
+#, php-format
+msgid "Error code (%s) when retrieving timeslots."
+msgstr "Error code (%s) bij het ophalen van de voorkeurstijden."
+
+#: public/class-bumbal-public.php:202
+#, php-format
+msgid ""
+"Failed to retrieve timeslot, API responded with: %s. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tCheck BumbalRetrieveTimeSlotError meta data."
+msgstr ""
+"Kon voorkeurstijden niet ophalen, API reageerde met: %s. Bekijk "
+"BumbalRetrieveTimeSlotError meta data."
+
+#: public/class-bumbal-public.php:212
+msgid "Thank you, we already received your preferred timeslot."
+msgstr "Dank u, we hebben uw voorkeurstijden al ontvangen."
+
+#: public/class-bumbal-public.php:231
+#, php-format
+msgid "Can not retrieve timeslots: %s."
+msgstr "Kan geen tijdslots ophalen: %s."
+
+#: public/class-bumbal-public.php:232
+#, php-format
+msgid ""
+"Failed to retrieve timeslot, API responded with: %s. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCheck BumbalRetrieveTimeSlotError meta data."
+msgstr ""
+"Kon voorkeurstijden niet ophalen, API reageerde met: %s. Bekijk "
+"BumbalRetrieveTimeSlotError meta data."
+
+#: public/class-bumbal-public.php:296
+msgid "Invite message triggered."
+msgstr "Uitnodigingsbericht verstuurd."
+
+#: public/class-bumbal-public.php:301
+#, php-format
+msgid "Order successfully send to Bumbal (%s)"
+msgstr "Bestelling succesvol verzonden naar Bumbal (%s)."
+
+#: public/class-bumbal-public.php:315
+#, php-format
+msgid "Multiday order send to Bumbal (%s)"
+msgstr "Meerdaagse bestelling succesvol verzonden naar Bumbal (%s)."
+
+#: public/class-bumbal-public.php:322
+msgid "Bumbal API responded with failed. Check BumbalAPIresponse meta data."
+msgstr ""
+"Bumbal API reageerde met een error. Bekijk BumbalAPIresponse meta data."
+
+#: public/class-bumbal-public.php:373
+msgid "Order is cancelled in Bumbal"
+msgstr "Bestelling is geannuleerd in Bumbal"
+
+#: public/class-bumbal-public.php:379
+msgid ""
+"Bumbal API responded with failed. Check BumbalCancelOrderError meta data."
+msgstr ""
+"Bumbal API reageerde met een error. Bekijk BumbalCancelOrderError meta data."
+
+#: public/class-bumbal-public.php:431
+msgid "Order is deleted in Bumbal"
+msgstr "Bestelling is verwijderd in Bumbal"
+
+#: public/class-bumbal-public.php:437
+msgid ""
+"Bumbal API responded with failed. Check BumbalDeleteOrderError meta data."
+msgstr ""
+"Bumbal API reageerde met een error. Bekijk BumbalDeleteOrderError meta data."
+
+#: public/class-bumbal-public.php:460
+msgid "delete"
+msgstr "verwijderd"
+
+#: public/class-bumbal-public.php:463
+msgid "cancel"
+msgstr "geannuleerd"
+
+#: public/class-bumbal-public.php:466
+msgid "update"
+msgstr "aangepast"
+
+#: public/class-bumbal-public.php:469
+msgid "set"
+msgstr "bepaald"
+
+#: public/class-bumbal-public.php:474
+#, php-format
+msgid "Could not %s order in Bumbal. Check %s in meta_data."
+msgstr "Bestelling kon niet %s worden in Bumbal. Bekijk %s in meta_data."
+
+#: public/class-bumbal-public.php:615
+msgid "Orders has been completed by Bumbal."
+msgstr "Bestelling is afgerond door Bumbal."
+
+#: public/partials/bumbal-public-time-slot.php:19
+msgid "Schedule your appointment:"
+msgstr "Plan een afspraak in:"
+
+#: public/partials/bumbal-public-time-slot.php:52
+msgid "Confirm"
+msgstr "Voorkeur bevestigen"
+
+#: public/partials/bumbal-public-timeslot-days-only.php:9
+#: public/partials/bumbal-public-timeslot-include-times.php:14
+#, php-format
+msgid "Follow up %s"
+msgstr "Volg %s op"
+
+#: public/partials/bumbal-public-timeslot-include-times.php:9
+#, php-format
+msgid "From <b>%s</b> to <b>%s</b>"
+msgstr "Van <b>%s</b> tot <b>%s</b>"
+
+#~ msgid ""
+#~ "Order not send to Bumbal because it could not connect to Bumbal API. "
+#~ "Check BumbalError in meta_data."
+#~ msgstr ""
+#~ "Order is niet verzonden naar Bumbal omdat het geen connectie kon maken "
+#~ "met de Bumbal API. Bekijk BumbalError in meta_data."
+
+#~ msgid "Bumbal"
+#~ msgstr "Bumbal"
+
+#, php-format
+#~ msgid "Order successfully cancelled and send to to Bumbal (%s)"
+#~ msgstr "Order is geannuleerd en verzonden naar Bumbal (%s)."
+
+#, php-format
+#~ msgid ""
+#~ "Failed to retrieve timeslot, API responded with: %s. \n"
+#~ "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   Check BumbalRetrieveTimeSlotError meta "
+#~ "data."
+#~ msgstr ""
+#~ "Kon geen tijdslot niet ophalen, API reageerde met: %s. Bekijk "
+#~ "BumbalRetrieveTimeSlotError meta data."
+
+#~ msgid "From"
+#~ msgstr "Van"
+
+#~ msgid "to"
+#~ msgstr "tot"
+
+#, php-format
+#~ msgid "to <b>%s</b>"
+#~ msgstr "tot <b>%s</b>"
+
+#~ msgid "All the settings for making a connection with Bumbal"
+#~ msgstr "All de instellingen voor het maken van een connectie met Bumbal"
+
+#~ msgid "Instance name for Bumbal"
+#~ msgstr "Instantie naam voor Bumbal"
+
+#~ msgid "All the settings for sending communication with Bumbal"
+#~ msgstr "Al de instellingen voor het versturen van communicatie met Bumbal"
+
+#~ msgid "Send an invite email for making a appointment when order is made."
+#~ msgstr ""
+#~ "Verstuur een uitnodiging email voor het maken van een afspraak als de "
+#~ "order wordt aangemaakt."
+
+#~ msgid "Send a reminder if no appointment is made."
+#~ msgstr "Verstuur een herinnering als er nog geen afspraak is gemaakt"
+
+#~ msgid "Send an email if prefered times are added"
+#~ msgstr "Verstuur een email als een tijdslot is gekozen"
+
+#~ msgid "Send an email if activity is planned"
+#~ msgstr "Verstuur een email als een activiteit is gepland"
+
+#~ msgid "Send ETA message"
+#~ msgstr "Verstuur ETA"
+
+#~ msgid "Send an estimated time of arrival message"
+#~ msgstr "Verstuur een bericht met verwachte aankomsttijd"
+
+#~ msgid "Send finished message"
+#~ msgstr "Verstuur afgerond bericht"
+
+#~ msgid "Send cancelled message"
+#~ msgstr "Verstuur geannuleerd bericht"
